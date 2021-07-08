@@ -1,5 +1,5 @@
 import Enzyme from "enzyme";
-import EnzymeAdaptor from "enzyme-adapter-react-17";
+import EnzymeAdaptor from "@wojtekmaj/enzyme-adapter-react-17";
 
 Enzyme.configure({
   adapter: new EnzymeAdaptor(),
